@@ -1,7 +1,7 @@
 package com.factory.database;
 
 class DatabaseFactory {
-    // Use getDatabase method to get an object of type Database
+
     public Database getDatabase(String dbType) {
         if (dbType == null) {
             return null;

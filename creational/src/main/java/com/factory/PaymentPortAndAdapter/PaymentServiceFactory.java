@@ -1,7 +1,7 @@
-package com.factory.Payment;
+package com.factory.PaymentPortAndAdapter;
 
 public class PaymentServiceFactory {
-    public PaymentServicePort getPaymentService(String provider) {
+    private PaymentServicePort getPaymentService(String provider) {
         if (provider == null) {
             return null;
         }

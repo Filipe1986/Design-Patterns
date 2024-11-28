@@ -1,4 +1,4 @@
-package com.factory.Payment;
+package com.factory.PaymentPortAndAdapter;
 
 public class PayPalPaymentServiceAdapter implements PaymentServicePort {
     @Override
